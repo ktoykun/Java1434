@@ -1,0 +1,26 @@
+Somut Class       Soyut(abstract) Class      Interface
+tamamı dolu        kısmi dolu                metodlar bos
+def const var      const olabilir            const olamaz
+new yapılabilir    new olamaz                new olamaz
+access modify var  access modify var         public-def
+tamamen somut      kısmi somut               tamamen soyut
+
+OOP:
+Encapsulation    :(Kapsülleme) private, get, set yapıyorduk.
+
+Inheritance      : (Kalıtım) (extends) birçok class ın ortak kısımları için
+                  bir paretn class yapıp sonraki classların bu classdan
+                  türetilmesidir. (dede-baba-torun ilişkisi)miras.
+
+Polymorphisim    : (Çok şekillilik*şizodren) bir parent classa veya ortak interface
+                  'e sahip class laeın istenildiğinde kendi tipinde istenilidğinde
+                  parentin tipinde olabilmesine böylece aynı metodların kullanılmasına
+                  imkan vermesidir.
+
+Interface        : Birden çok class ın aynı şablından metodlarını üretmesini zorunlu
+                   kılan, böylece yazılımı planlaştıran yöntemdir. Sadece metod isimlerinin
+                   olduğu bir şablondur.
+
+Abstract         : Bir tane interface ve bir tane parent class olacaksa, interface+parent
+                   class kullanma yerine her ikisini içine alan tek bir class tipidir.
+                   interface+inheritance=abstract class >> 2'si bir arada
